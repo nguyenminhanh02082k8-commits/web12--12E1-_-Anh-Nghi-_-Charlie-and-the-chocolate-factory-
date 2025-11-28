@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charlie and the Chocolate Factory - W3.CSS Template</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="w3-light-grey">
+
+    <div class="w3-top">
+    <div class="w3-bar nav-bar">
+      <a href="#home" class="w3-bar-item w3-button nav-title">Charlie &amp; The Chocolate Factory</a>
+      <div class="w3-right w3-hide-small nav-right">
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#about" class="w3-bar-item w3-button">Characters</a>
+        <a href="#rooms" class="w3-bar-item w3-button">Factory Rooms</a>
+        <a href="#golden" class="w3-bar-item w3-button">Request Ticket</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()">☰</a>
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="w3-bar-block w3-hide mobile-menu">
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#characters" class="w3-bar-item w3-button">Characters</a>
+    <a href="#rooms" class="w3-bar-item w3-button">Factory Rooms</a>
+    <a href="#golden" class="w3-bar-item w3-button">Request Ticket</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+
+  <div class="audio-player">
+  <audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+  </audio>
+</div>
+
+   <div class="hero-image">
+  <img src="https://wallpapercave.com/wp/wp2391067.jpg" alt="Chocolate Factory" />
+</div>
+  <header id="home" class="hero">
+    <h1>Welcome to Wonka's</h1>
+    <h2>Charlie and the Chocolate Factory</h2>
+    <p class="lead">"A little nonsense now and then is relished by the wisest men"</p>
+    <div class="cta-row">
+      <a class="btn-explore" href="#rooms">Explore the Factory</a>
+      <a class="btn-golden" href="#golden">Request Your Golden Ticket</a>
+    </div>
+  </header>
+
+<section class="carousel-section">
+
+  <div class="carousel-container">
+    <div class="carousel-slide fade">
+      <img src="https://wallpapercave.com/wp/wp2391067.jpg">
+    </div>
+
+    <div class="carousel-slide fade">
+      <img src="https://i.pinimg.com/1200x/64/de/ee/64deeeb9a9147ab50359a58a16cbf293.jpg">
+    </div>
+
+    <div class="carousel-slide fade">
+      <img src="https://cdn.mos.cms.futurecdn.net/hE9TDNutZziA2axqj5dMhk.jpg">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <h2 class="section-title">Meet the Characters</h2>
+  <p class="section-sub">The wonderful people who make the magic happen</p>
+
+  <div class="characters-container">
+    <div class="character-card">
+      <div class="avatar-wrapper">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Johnny_Depp_as_Willy_Wonka.jpg/250px-Johnny_Depp_as_Willy_Wonka.jpg" class="avatar">
+      </div>
+      <h3>Willy Wonka</h3>
+      <p class="char-desc">The eccentric chocolatier who runs the magical factory.</p>
+    </div>
+
+    <div class="character-card">
+      <div class="avatar-wrapper">
+      <img src="https://i2-prod.mirror.co.uk/article6774478.ece/ALTERNATES/s1200c/Where-are-the-cast-of-Charlie-and-the-choc-factory-10-years-on.jpg" class="avatar">
+      </div>
+      <h3>Charlie Bucket</h3>
+      <p class="char-desc">The humble and kind-hearted boy who wins the Golden Ticket.</p>
+    </div>
+
+    <div class="character-card">
+      <div class="avatar-wrapper">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPP-6C_Rdpf0Q-cdTIZgLHLtLpbR10EUMow&s" class="avatar">
+      </div>
+      <h3>Veruca Salt</h3>
+      <p class="char-desc">The spoiled girl who always gets what she wants.</p>
+    </div>
+
+    <div class="character-card">
+      <div class="avatar-wrapper">
+      <img src="https://pbs.twimg.com/media/FL1PMkdXwAIn1Zr.jpg" class="avatar">
+      </div>
+      <h3>Augustus Gloop</h3>
+      <p class="char-desc">The gluttonous boy who loves to eat, especially chocolate.</p>
+    </div>
+  </div>
+</section>
+
+<section id="rooms" class="rooms-section">
+  <h2 class="section-title w3-xxlarge">Factory Rooms</h2>
+  <p class="section-sub w3-large">Explore the magical rooms of Wonka's Factory</p>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m6 s12">
+      <article class="room-card">
+      <img src="https://media.dolenglish.vn/directus-upload/a63f0c6d-ea8e-11ef-ae54-971cd92d9c55.jpg">
+    <div class="room-body">
+      <h3>The Chocolate Room</h3>
+      <p>Where chocolate dreams come true.</p>
+    </div>
+    </article>
+    </div>
+
+    <div class="w3-col l6 m6 s12">
+      <article class="room-card">
+        <img src="https://mievcharlie.weebly.com/uploads/3/0/2/8/30282269/header_images/1437895149.jpg">
+        <div class="room-body">
+        <h3>The Inventing Room</h3>
+        <p>Where impossible becomes possible.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="w3-col l6 m6 s12">
+      <article class="room-card">
+        <img src="https://thecoconutmama.com/wp-content/uploads/2023/03/nutsfruit-scaled.webp">
+        <div class="room-body">
+        <h3>The Nut Room</h3>
+        <p>Home to the golden squirrels who sort the nuts with precision.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="w3-col l6 m6 s12">
+      <article class="room-card">
+      <img src="https://i.pinimg.com/736x/65/81/8f/65818f1037b593097bb931152fff3d46.jpg">
+      <div class="room-body">
+      <h3>Fizzy Lifting Drink Room</h3>
+      <p>Where the magical fizzy drinks make you float up into the air.</p>
+    </div>
+    </article>
+    </div>
+  </div>
+</section>
+
+  <section id="golden" class="golden-section">
+    <h2 class="section-title w3-xxlarge">Request Your Golden Ticket</h2>
+    <p class="section-sub w3-large">Fill out the form below</p>
+
+    <div class="golden-form">
+      <h3>Golden Ticket Application</h3>
+      <form id="realGoldenRequest" onsubmit="submitGolden(event)">
+        <label>Your Name *</label>
+        <input type="text" id="gName" required>
+
+        <label>Email Address *</label>
+        <input type="email" id="gEmail" required>
+
+        <label>Favorite Candy</label>
+        <input type="text" id="gCandy">
+
+        <label>Why do you deserve a Golden Ticket? *</label>
+        <textarea id="gWhy" required></textarea>
+
+        <button type="submit">🎫 Submit Golden Ticket Request</button>
+      </form>
+      <p id="goldenResult" class="golden-result">Thank you! Your request has been submitted.</p>
+    </div>
+
+     <div class="hero-image">
+  <img src="https://i.pinimg.com/1200x/64/de/ee/64deeeb9a9147ab50359a58a16cbf293.jpg" alt="Chocolate Factory" />
+</div>
+  </section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-sub">We’d love to hear from you!</p>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>📍 Factory Address</h3>
+      <p>Wonka's Chocolate Factory</p>
+      <p>123 Candy Lane</p>
+      <p>Chocolate City, CC 12345</p>
+
+      <h3>📞 Phone</h3>
+      <p>+1 234-567-890</p>
+
+      <h3>✉️ Email</h3>
+      <p>willywonka@factory.com</p>
+    </div>
+
+    <form class="contact-form">
+      <h3>Send Us a Message</h3>
+
+      <label>Your Name</label>
+      <input type="text" required>
+
+      <label>Email Address</label>
+      <input type="email" required>
+
+      <label>Message</label>
+      <textarea required></textarea>
+
+      <button type="submit">📨 Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<footer class="wonka-footer">
+    <div class="footer-box">
+
+    <div class="col">
+      <h3><span class="icon">📕</span> About the Factory</h3>
+      <p>
+      Wonka's Chocolate Factory has been creating magical confections for generations.
+      Our commitment to imagination and wonder continues to delight chocolate lovers worldwide.
+      </p>
+    </div>
+
+    <div class="col">
+     <h3><span class="icon">📘</span> Quick Links</h3>
+      <ul>
+        <li>Home</li>
+        <li>Characters</li>
+        <li>Factory Rooms</li>
+        <li>Gallery</li>
+        <li>Golden Ticket</li>
+      </ul>
+        </div>
+
+      <div class="col">
+        <h3><span class="icon">📍</span> Visit Us</h3>
+        <p>Wonka's Chocolate Factory</p>
+        <p>123 Candy Lane</p>
+        <p>Chocolate City, CC 12345</p>
+        <p><strong>Hours:</strong> By Golden Ticket Only</p>
+      </div>
+
+    </div>
+
+    <div class="quote">
+        "We are the music makers, and we are the dreamers of dreams."<br>
+        <span>- Willy Wonka</span>
+    </div>
+
+    <div class="footer-bottom">
+      © 2024 Wonka's Chocolate Factory 🧩 All Rights Reserved<br>
+      Made with 🍫 and a sprinkle of magic
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
