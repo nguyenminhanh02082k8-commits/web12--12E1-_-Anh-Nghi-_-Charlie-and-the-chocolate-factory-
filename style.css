@@ -458,22 +458,16 @@ html, body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* ========== FORCE ALL HEADINGS TO BE EXTRA LARGE ========== */
-
-
-/* Hero title vẫn to nhưng vẫn đồng bộ */
 .hero h1,
 .hero h2 {
   font-size: 4.5rem !important;
 }
 
-/* Tiêu đề các section */
 .section-title {
   font-size: 4.5rem !important;
 }
 
 
-/* Tiêu đề trong các card / room / character */
 .character-card h3,
 .room-card h3,
 .golden-form h3 {
@@ -481,7 +475,6 @@ html, body {
   font-weight:700 !important;
 }
 
-/* ===== CAROUSEL ===== */
 .carousel-section {
   width: 100%;
   margin: 40px 0;
